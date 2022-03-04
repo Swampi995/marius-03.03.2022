@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1646376973071" clover="3.2.0">
+  <project timestamp="1646376973071" name="All files">
+    <metrics statements="151" coveredstatements="73" conditionals="29" coveredconditionals="13" methods="45" coveredmethods="18" elements="225" coveredelements="104" complexity="0" loc="151" ncloc="151" packages="6" files="16" classes="16"/>
+    <package name="components">
+      <metrics statements="29" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="9" coveredmethods="4"/>
+      <file name="Button.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/Button.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+      </file>
+      <file name="Dropdown.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/Dropdown.tsx">
+        <metrics statements="14" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+      </file>
+      <file name="Text.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/Text.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="10" count="22" type="stmt"/>
+      </file>
+      <file name="Themed.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/Themed.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="8" count="46" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="11" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="46" type="stmt"/>
+      </file>
+      <file name="View.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/View.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/components/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Colors.ts" path="/Users/pascamarius/workspace/marius-03.03.2022/constants/Colors.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="31" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="1"/>
+      <file name="useColorScheme.ts" path="/Users/pascamarius/workspace/marius-03.03.2022/hooks/useColorScheme.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="46" type="stmt"/>
+      </file>
+      <file name="useWebSockets.ts" path="/Users/pascamarius/workspace/marius-03.03.2022/hooks/useWebSockets.ts">
+        <metrics statements="30" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens">
+      <metrics statements="41" coveredstatements="21" conditionals="14" coveredconditionals="7" methods="8" coveredmethods="5"/>
+      <file name="MainScreen.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/MainScreen.tsx">
+        <metrics statements="41" coveredstatements="21" conditionals="14" coveredconditionals="7" methods="8" coveredmethods="5"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="17" type="stmt"/>
+        <line num="70" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="7" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="81" count="10" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="5" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="7" type="stmt"/>
+        <line num="90" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="7" type="stmt"/>
+        <line num="92" count="7" type="stmt"/>
+        <line num="93" count="7" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.book">
+      <metrics statements="39" coveredstatements="32" conditionals="10" coveredconditionals="4" methods="12" coveredmethods="8"/>
+      <file name="Actions.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/book/Actions.tsx">
+        <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="Asks.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/book/Asks.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+      </file>
+      <file name="Bids.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/book/Bids.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/book/Header.tsx">
+        <metrics statements="7" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+      <file name="Spread.tsx" path="/Users/pascamarius/workspace/marius-03.03.2022/screens/book/Spread.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="11" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="ordersData.ts" path="/Users/pascamarius/workspace/marius-03.03.2022/services/ordersData.ts">
+        <metrics statements="11" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

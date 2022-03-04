@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { StyleSheet } from 'react-native';
 import { Text, View, useThemeColor, Dropdown } from '../../components';
-import { provideMarketData, MARKET, OrdersData } from '../../services/ordersData';
+import { MARKET } from '../../services/ordersData';
 
 interface HeaderProps {
     group: number;

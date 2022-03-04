@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spread /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#121723",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#bebfc5",
+          "fontFamily": undefined,
+        },
+        Object {
+          "fontSize": 14,
+          "marginRight": 6,
+        },
+      ]
+    }
+  >
+    Spread: 
+    5.0
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#bebfc5",
+          "fontFamily": undefined,
+        },
+        Object {
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    (
+    0.10
+    %)
+  </Text>
+</View>
+`;

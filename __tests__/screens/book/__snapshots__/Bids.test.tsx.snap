@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bids /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#121723",
+      },
+      Array [
+        Object {
+          "flex": 8,
+          "overflow": "hidden",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#121723",
+        },
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#121723",
+          },
+          Array [
+            Object {
+              "height": "100%",
+              "position": "absolute",
+            },
+            Object {
+              "backgroundColor": "#11835d7d",
+              "width": "10%",
+            },
+          ],
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#11835d",
+              "flex": 3,
+            },
+          ],
+        ]
+      }
+    >
+      10
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      100
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      100
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#121723",
+        },
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#121723",
+          },
+          Array [
+            Object {
+              "height": "100%",
+              "position": "absolute",
+            },
+            Object {
+              "backgroundColor": "#11835d7d",
+              "width": "40%",
+            },
+          ],
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#11835d",
+              "flex": 3,
+            },
+          ],
+        ]
+      }
+    >
+      150
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      300
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      400
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#121723",
+        },
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#121723",
+          },
+          Array [
+            Object {
+              "height": "100%",
+              "position": "absolute",
+            },
+            Object {
+              "backgroundColor": "#11835d7d",
+              "width": "100%",
+            },
+          ],
+        ]
+      }
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#11835d",
+              "flex": 3,
+            },
+          ],
+        ]
+      }
+    >
+      500
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      500
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Array [
+            Object {
+              "flex": 2,
+              "paddingVertical": 4,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cbced4",
+            },
+          ],
+        ]
+      }
+    >
+      1,000
+    </Text>
+  </View>
+</View>
+`;

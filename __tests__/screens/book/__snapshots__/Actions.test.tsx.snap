@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Actions /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#121723",
+      },
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 30,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#5741d9",
+        "borderRadius": 5,
+        "minWidth": 150,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Object {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Toggle Feed
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#b91d1d",
+        "borderRadius": 5,
+        "minWidth": 150,
+        "opacity": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#bebfc5",
+            "fontFamily": undefined,
+          },
+          Object {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "600",
+          },
+        ]
+      }
+    >
+      Kill Feed
+    </Text>
+  </View>
+</View>
+`;
