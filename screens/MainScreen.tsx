@@ -43,6 +43,8 @@ export default function MainScreen() {
 
   const toggleMaket = (newMarket: MARKET) => {
     setMarket(newMarket);
+    setStoredAsks([]);
+    setStoredBids([]);
     if (newMarket === 'PI_XBTUSD') {
       setGroup(0.5);
     } else {
