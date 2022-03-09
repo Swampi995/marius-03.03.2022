@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { StyleSheet } from 'react-native';
 import { View } from '../components';
 import Header from './book/Header';
@@ -20,7 +20,26 @@ export default function MainScreen() {
   const [group, setGroup] = useState(0.5);
   const [killed, setKilled] = useState(false);
   const [market, setMarket] = useState<MARKET>('PI_XBTUSD');
+
+  const [storedAsks, setStoredAsks] = useState<OrdersData['asks']>([]);
+  const [storedBids, setStoredBids] = useState<OrdersData['bids']>([]);
+
   const marketHook = provideMarketData(market);
+
+  useEffect(() => {
+    if (marketHook.data?.asks) {
+      const newStoredAsks = storedAsks.filter((sa) => !marketHook.data?.asks.some((ma) => ma[0] === sa[0]));
+      newStoredAsks.push(...marketHook.data.asks.filter((ma) => ma[1]));
+      setStoredAsks(newStoredAsks);
+    }
+
+    if (marketHook.data?.bids) {
+      const newStoredBids = storedBids.filter((sb) => !marketHook.data?.bids.some((mb) => mb[0] === sb[0]));
+      newStoredBids.push(...marketHook.data.bids.filter((mb) => mb[1]));
+      setStoredBids(newStoredBids);
+    }
+
+  }, [marketHook.data]);
 
   const toggleMaket = (newMarket: MARKET) => {
     setMarket(newMarket);
@@ -43,8 +62,8 @@ export default function MainScreen() {
     }
   }
 
-  const { items: asks, maxTotal: askMax, min: minAsk } = processOrders(marketHook.data?.asks, group);
-  const { items: bids, maxTotal: bidMax, max: maxBid } = processOrders(marketHook.data?.bids, group);
+  const { items: asks, maxTotal: askMax, min: minAsk } = processOrders(storedAsks, group);
+  const { items: bids, maxTotal: bidMax, max: maxBid } = processOrders(storedBids, group);
 
   const maxTotal = Math.max(askMax, bidMax);
 
